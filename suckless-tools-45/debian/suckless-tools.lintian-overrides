@@ -1,0 +1,6 @@
+# Upstream doesn't provide a changelog
+suckless-tools: no-upstream-changelog
+
+# These files are alternatives for tabbed, which has a manpage
+suckless-tools: binary-without-manpage usr/bin/tabbed.default
+suckless-tools: binary-without-manpage usr/bin/tabbed.meta

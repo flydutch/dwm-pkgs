@@ -1,0 +1,16 @@
+Slock is a very simple screen locker. After locking the screen you have to
+type your password, when you press a key if slock is active the screen color
+will turn to blue. After entering password hit enter and the screen will be
+unlocked.
+
+Please Note:
+Debian provides a patched version of slock which uses PAM for authentication.
+This means that slock can authenticate the user using some other mechanism for
+login (i.e., NIS passwords, fingerprint readers, etc). In addition, we avoid
+installing slock with setuid-root or setgid-shadow permissions.
+
+Slock also tries to disable the OOM killer by adjusting the
+'/proc/PID/oom_score_adj'. In order for this to work, we set the
+CAP_SYS_RESOURCE capability on filesystems that support this operation.
+
+ -- Ilias Tsitsimpis <i.tsitsimpis@gmail.com>  Sat, 10 Oct 2015 19:31:43 +0300

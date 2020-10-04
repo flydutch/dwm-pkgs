@@ -1,0 +1,3 @@
+# This package is a bundle of multiple upstream software with different versions
+# It seems that lintian doesn't support this type of watch file
+suckless-tools source: debian-watch-file-specifies-old-upstream-version

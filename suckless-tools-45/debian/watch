@@ -1,0 +1,82 @@
+version=4
+
+# Download dmenu
+opts=dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha)\d*)$/$1~$2/,\
+oversionmangle=s/.*/45/,\
+component=dmenu \
+https://dl.suckless.org/tools/ \
+dmenu@ANY_VERSION@@ARCHIVE_EXT@ \
+4.9
+
+# Download lsw
+opts=dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha)\d*)$/$1~$2/,\
+component=lsw \
+https://dl.suckless.org/tools/ \
+lsw@ANY_VERSION@@ARCHIVE_EXT@ \
+0.3
+
+# Download slock
+opts=dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha)\d*)$/$1~$2/,\
+component=slock \
+https://dl.suckless.org/tools/ \
+slock@ANY_VERSION@@ARCHIVE_EXT@ \
+1.4
+
+# Download sprop
+opts=dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha)\d*)$/$1~$2/,\
+component=sprop \
+https://dl.suckless.org/tools/ \
+sprop@ANY_VERSION@@ARCHIVE_EXT@ \
+0.1
+
+# Download sselp
+opts=dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha)\d*)$/$1~$2/,\
+component=sselp \
+https://dl.suckless.org/tools/ \
+sselp@ANY_VERSION@@ARCHIVE_EXT@ \
+0.2
+
+# Download ssid
+opts=dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha)\d*)$/$1~$2/,\
+component=ssid \
+https://dl.suckless.org/tools/ \
+ssid@ANY_VERSION@@ARCHIVE_EXT@ \
+0.1
+
+# Download swarp
+opts=dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha)\d*)$/$1~$2/,\
+component=swarp \
+https://dl.suckless.org/tools/ \
+swarp@ANY_VERSION@@ARCHIVE_EXT@ \
+0.1
+
+# Download tabbed
+opts=dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha)\d*)$/$1~$2/,\
+component=tabbed \
+https://dl.suckless.org/tools/ \
+tabbed@ANY_VERSION@@ARCHIVE_EXT@ \
+0.6
+
+# Download wmname
+opts=dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha)\d*)$/$1~$2/,\
+component=wmname \
+https://dl.suckless.org/tools/ \
+wmname@ANY_VERSION@@ARCHIVE_EXT@ \
+0.1
+
+# Download xssstate
+opts=dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha)\d*)$/$1~$2/,\
+component=xssstate \
+https://dl.suckless.org/tools/ \
+xssstate@ANY_VERSION@@ARCHIVE_EXT@ \
+1.1
