@@ -4,4 +4,5 @@
 
 ```
 $ cd dwm && fakeroot dh binary
+$ cd stterm && fakeroot dh binary
 ```
