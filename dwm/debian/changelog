@@ -1,0 +1,11 @@
+dwm (6.2-1) unstable; urgency=medium
+
+  * dwm 6.2 with patches:
+    - alpha
+    - autostart
+    - dwmc
+    - pertag
+    - uselessgap
+  * based on original deb 6.1-5 by Hugo Lefeuvre <hle@debian.org>
+
+ -- Matteo Foppiano <matteo@redsplat.org>  Sat, 03 Oct 2020 23:29:50 +0200

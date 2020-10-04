@@ -1,0 +1,12 @@
+dwm_*_amd64.deb
+dwm-*/*.o
+dwm-*/dwm
+dwm-*/config.h
+dwm-*/debian/.debhelper/
+dwm-*/debian/debhelper-build-stamp
+dwm-*/debian/dwm.postinst.debhelper
+dwm-*/debian/dwm.postrm.debhelper
+dwm-*/debian/dwm.prerm.debhelper
+dwm-*/debian/dwm.substvars
+dwm-*/debian/dwm/
+dwm-*/debian/files
