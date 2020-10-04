@@ -1,0 +1,5 @@
+stterm (0.8.4-1) unstable; urgency=medium
+
+  * based on original deb 0.8.4-1 by Paride Legovini <paride@debian.org>
+
+ -- Matteo Foppiano <matteo@redsplat.org>  Sat, 03 Oct 2020 23:40:26 +0200
