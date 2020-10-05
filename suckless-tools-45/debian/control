@@ -1,7 +1,7 @@
 Source: suckless-tools
 Section: x11
 Priority: optional
-Maintainer: Ilias Tsitsimpis <iliastsi@debian.org>
+Maintainer: Matteo Foppiano <matteo@redsplat.org>
 Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 12),
