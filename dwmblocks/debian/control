@@ -1,0 +1,20 @@
+Source: dwmblocks
+Section: x11
+Priority: optional
+Maintainer: Matteo Foppiano <matteo@redsplat.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ libx11-dev,
+ pkg-config,
+Standards-Version: 4.5.0
+Vcs-Git: https://github.com/torrinfail/dwmblocks
+Rules-Requires-Root: no
+
+Package: dwmblocks
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Multi-Arch: foreign
+Description: modular status bar for dwm
+ Modular status bar for dwm.
