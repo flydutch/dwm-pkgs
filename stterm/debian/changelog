@@ -1,3 +1,12 @@
+stterm (0.8.4-2) unstable; urgency=medium
+
+  * add patches:
+    - nordtheme
+    - ligatures
+  * new font: Adobe Source Code Pro
+
+ -- Matteo Foppiano <matteo@redsplat.org>  Sat, 11 Oct 2020 17:52:02 +0200
+
 stterm (0.8.4-1) unstable; urgency=medium
 
   * based on original deb 0.8.4-1 by Paride Legovini <paride@debian.org>
