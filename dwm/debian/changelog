@@ -1,3 +1,10 @@
+dwm (6.2-2) unstable; urgency=medium
+
+  * add patch:
+    - attachbelow-toggleable
+
+ -- Matteo Foppiano <matteo@redsplat.org>  Sat, 18 Oct 2020 23:50:22 +0200
+
 dwm (6.2-1) unstable; urgency=medium
 
   * dwm 6.2 with patches:
