@@ -1,3 +1,14 @@
+stterm (0.8.4-3) unstable; urgency=medium
+
+  TTF fonts doesn't render good on wide screens, switch to bitmap font
+  Terminus
+  * add patches:
+    - font2
+      use this patch to render glyphs not available in bitmap font, use
+      Terminess Nerd Font as font2
+
+ -- Matteo Foppiano <matteo@redsplat.org>  Fri, 23 Oct 2020 10:27:08 +0200
+
 stterm (0.8.4-2) unstable; urgency=medium
 
   * add patches:
