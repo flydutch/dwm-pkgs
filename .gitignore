@@ -16,3 +16,7 @@ stterm/*.o
 stterm/debian/stterm.debhelper.log
 stterm/debian/stterm.substvars
 stterm/st
+dwmblocks/debian/dwmblocks.substvars
+dwmblocks/debian/dwmblocks/
+dwmblocks/dwmblocks
+
