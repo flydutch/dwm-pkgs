@@ -1,3 +1,13 @@
+dwm (6.2-4) unstable; urgency=medium
+
+  * remove centered floating master layout
+  * remap keys for setting layout to 'qwer' keys
+  * add rule to bind bpytop to tag 13
+  * add key PRINT to manage tag 13
+  * add key PAUSE to force DPMS off
+
+ -- Matteo Foppiano <matteo@redsplat.org>  Tue, 27 Oct 2020 09:56:13 +0100
+
 dwm (6.2-3) unstable; urgency=medium
 
   * add patch:
