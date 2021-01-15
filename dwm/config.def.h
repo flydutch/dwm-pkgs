@@ -44,6 +44,7 @@ static const Rule rules[] = {
 	{ "Firefox",    NULL,       NULL,       1 << 9,       0,           -1 },
 	{ "bpytop",    "bpytop",    NULL,       1 << 12,      0,           -1 },
 	{ "alsamixer", "alsamixer", NULL,       0,            1,           -1 },
+	{ "clock",     "clock",     NULL,       0,            1,           -1 },
 };
 
 /* layout(s) */
@@ -77,6 +78,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", NULL };
 static const char *screensaver[] = { "screensaver.sh", NULL };
 static const char *alsamixer[] = { "alsamixer-run.sh", NULL };
+static const char *clockcmd[] = { "clock-run.sh", NULL };
 
 
 static Key keys[] = {
@@ -122,6 +124,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_Print,                  12)
 	{ MODKEY,                       XK_Pause,  spawn,          {.v = screensaver } },
 	{ MODKEY,                       XK_m,      spawn,          {.v = alsamixer } },
+	{ MODKEY,                       XK_1,      spawn,          {.v = clockcmd } },
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 };
 
