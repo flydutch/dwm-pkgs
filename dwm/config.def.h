@@ -38,11 +38,12 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 9,       0,           -1 },
-	{ "bpytop",    "bpytop",    NULL,     1 << 12,      0,           -1 },
-	{ "alsamixer", "alsamixer", NULL,     0,            1,           -1 },
+	/* class        instance    title       tags mask     isfloating   monitor */
+	{ "Gimp",       NULL,       NULL,       0,            1,           -1 },
+	{ "qjackctl",   NULL,       NULL,       0,            1,           -1 },
+	{ "Firefox",    NULL,       NULL,       1 << 9,       0,           -1 },
+	{ "bpytop",    "bpytop",    NULL,       1 << 12,      0,           -1 },
+	{ "alsamixer", "alsamixer", NULL,       0,            1,           -1 },
 };
 
 /* layout(s) */
