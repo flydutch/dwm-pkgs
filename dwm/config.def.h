@@ -41,7 +41,7 @@ static const Rule rules[] = {
 	/* class        instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",       NULL,       NULL,       0,            1,           -1 },
 	{ "qjackctl",   NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",    NULL,       NULL,       1 << 9,       0,           -1 },
+	{ "Firefox",    NULL,       NULL,       0,            0,           -1 },
 	{ "bpytop",    "bpytop",    NULL,       1 << 12,      0,           -1 },
 	{ "alsamixer", "alsamixer", NULL,       0,            1,           -1 },
 	{ "clock",     "clock",     NULL,       0,            1,           -1 },
