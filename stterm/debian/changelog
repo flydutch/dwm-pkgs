@@ -1,3 +1,9 @@
+stterm (0.8.4-4) unstable; urgency=medium
+
+  * change theme from nord to dracula
+
+ -- Matteo Foppiano <matteo@redsplat.org>  Sat, 13 Feb 2021 15:08:40 +0100
+
 stterm (0.8.4-3) unstable; urgency=medium
 
   TTF fonts doesn't render good on wide screens, switch to bitmap font
