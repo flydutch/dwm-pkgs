@@ -1,3 +1,13 @@
+dwm (6.2-5) unstable; urgency=medium
+
+  * remove firefox tag
+  * add clock key bind and window rule
+  * add qjackctl key bind and window rule
+  * add alsamixer key bind and window rule
+  * change theme from nord to dracula
+
+ -- Matteo Foppiano <matteo@redsplat.org>  Mon, 08 Feb 2021 01:27:22 +0100
+
 dwm (6.2-4) unstable; urgency=medium
 
   * remove centered floating master layout
