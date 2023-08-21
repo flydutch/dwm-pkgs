@@ -1,3 +1,9 @@
+dwmblocks (1.1) unstable; urgency=medium
+
+  * Add statuscmd patch
+
+ -- Matteo Foppiano <matteo@redsplat.org>  Sun, 20 Nov 2022 13:54:27 +0100
+
 dwmblocks (1.0) unstable; urgency=medium
 
   * based on GIT repository https://github.com/torrinfail/dwmblocks
