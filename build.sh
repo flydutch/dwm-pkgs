@@ -25,7 +25,7 @@ esac
 if [ ${build_dwm} -ne 0 ]; then
 	echo "Building DWM"
 	echo ""
-	cd dwm && fakeroot dh clean && fakeroot dh binary && cd ..
+	cd dwm-6.4 && fakeroot dh clean && fakeroot dh binary && cd ..
 	echo "-------------------------------------------------------------------------------"
 fi
 
