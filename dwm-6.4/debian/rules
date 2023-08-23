@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+SHELL := sh -e
+
+%:
+	dh ${@}
+
+override_dh_auto_clean:
+	rm -f config.h
+	$(MAKE) clean
+
+override_dh_auto_install:
+	$(MAKE) install DESTDIR=$(CURDIR)/debian/dwm PREFIX=/usr
+
+	mv debian/dwm/usr/bin/dwm debian/dwm/usr/bin/dwm.default
+	ln -s dwm.1.gz debian/dwm/usr/share/man/man1/dwm.default.1.gz

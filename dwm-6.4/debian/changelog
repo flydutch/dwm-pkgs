@@ -1,0 +1,14 @@
+dwm (6.4-1) unstable; urgency=medium
+
+  based on vanilla dwm 6.4, with the following patches:
+  - focusmaster
+  - push (push_no_master)
+  - attachbelow
+  - uselessgap
+  - scratchpad
+  - centeredmaster
+  - swallow
+  - alpha
+  - autostart
+
+ -- Matteo Foppiano <matteo@redsplat.org>  Wed, 23 Aug 2023 13:10:30 +0200
