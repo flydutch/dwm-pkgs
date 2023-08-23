@@ -10,5 +10,6 @@ dwm (6.4-1) unstable; urgency=medium
   - swallow
   - alpha
   - autostart
+  - pertag (pertag_without_bar)
 
  -- Matteo Foppiano <matteo@redsplat.org>  Wed, 23 Aug 2023 13:10:30 +0200
